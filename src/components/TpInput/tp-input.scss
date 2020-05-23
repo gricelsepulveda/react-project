@@ -1,0 +1,22 @@
+.tp-input{
+  border: 1px solid #d9d9d9;
+  height: 36px;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font: {
+    size: 21px;
+    weight: 300;
+    family: "Segoe Ui"
+  }
+  border-radius: 3px;
+  &::placeholder{
+    font: {
+      size: 21px;
+      weight: 300;
+      family: "Segoe Ui";
+      style: italic;
+    }
+    color: #d9d9d9;
+  }
+}
