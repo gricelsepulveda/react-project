@@ -1,0 +1,13 @@
+.tp-button{
+  background-color: black;
+  color: white;
+  &.red{
+    background-color: red;
+  }
+  &.blue{
+    background-color: blue;
+  }
+  &.pink{
+    background-color: pink;
+  }
+}
